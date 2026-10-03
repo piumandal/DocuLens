@@ -1,0 +1,10 @@
+@"
+.env
+*.pdf
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.streamlit/secrets.toml
+"@ | Out-File -Encoding utf8 .gitignore
